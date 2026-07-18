@@ -1,0 +1,220 @@
+.featured{
+    width:90%;
+    margin:120px auto;
+}
+
+.featured-main{
+
+    background:linear-gradient(135deg,#6C63FF,#4834d4);
+
+    border-radius:30px;
+
+    padding:70px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    color:white;
+
+    overflow:hidden;
+
+}
+
+.featured-image{
+
+    width:45%;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.featured-image img{
+
+    width:320px;
+
+    transition:.5s;
+
+}
+
+.featured-main:hover img{
+
+    transform:scale(1.08) rotate(-5deg);
+
+}
+
+.featured-text{
+
+    width:45%;
+
+}
+
+.featured-text h1{
+
+    font-size:58px;
+
+    line-height:1;
+
+    margin-bottom:25px;
+
+}
+
+.featured-text p{
+
+    color:#ececec;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+}
+
+.featured-text button{
+
+    background:white;
+
+    color:#4834d4;
+
+    border:none;
+
+    padding:18px 45px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.featured-text button:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* Bottom */
+
+.featured-bottom{
+
+    margin-top:50px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+
+}
+
+.card-left,
+.card-right{
+
+    height:350px;
+
+    border-radius:25px;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.card-left{
+
+    background:#F4F5FA;
+
+}
+
+.card-left img{
+
+    width:300px;
+
+    position:absolute;
+
+    left:50%;
+
+    top:50%;
+
+    transform:translate(-50%,-50%);
+
+}
+
+.card-right{
+
+    background:#EAEAEA;
+
+}
+
+.overlay{
+
+    position:absolute;
+
+    left:40px;
+
+    bottom:40px;
+
+}
+
+.overlay h2{
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+.overlay button{
+
+    padding:14px 35px;
+
+    border:none;
+
+    background:#6C63FF;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.overlay button:hover{
+
+    background:#4834d4;
+
+}
+
+@media(max-width:900px){
+
+.featured-main{
+
+flex-direction:column;
+
+text-align:center;
+
+gap:50px;
+
+}
+
+.featured-image,
+.featured-text{
+
+width:100%;
+
+}
+
+.featured-bottom{
+
+grid-template-columns:1fr;
+
+}
+
+}

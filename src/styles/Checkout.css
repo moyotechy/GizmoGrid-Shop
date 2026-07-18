@@ -1,0 +1,24 @@
+.checkout-page{
+    background:#F5F5F5;
+    min-height:100vh;
+    padding:80px 30px;
+}
+
+.checkout-container{
+    max-width:1400px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:40px;
+
+    align-items:start;
+}
+
+@media(max-width:1000px){
+
+.checkout-container{
+grid-template-columns:1fr;
+}
+
+}

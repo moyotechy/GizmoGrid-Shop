@@ -1,0 +1,51 @@
+.summary{
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.summary h2{
+    margin-bottom:30px;
+}
+
+.summary-item{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.summary-item img{
+    width:70px;
+    margin-right:15px;
+}
+
+.summary-info{
+    flex:1;
+}
+
+.summary-info h4{
+    font-size:16px;
+    margin-bottom:5px;
+}
+
+.summary-info p{
+    color:#888;
+}
+
+.summary-row{
+    display:flex;
+    justify-content:space-between;
+    margin-top:18px;
+}
+
+.grand-total{
+    margin-top:30px;
+    padding-top:20px;
+    border-top:1px solid #ddd;
+}
+
+.grand-total strong{
+    color:#D87D4A;
+    font-size:22px;
+}

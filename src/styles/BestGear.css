@@ -1,0 +1,52 @@
+.best-gear {
+  max-width: 1200px;
+  margin: 120px auto;
+  padding: 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.best-text {
+  flex: 1;
+}
+
+.best-text h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #101010;
+}
+
+.best-text span {
+  color: #d87d4a;
+}
+
+.best-text p {
+  color: #666;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.best-image {
+  flex: 1;
+}
+
+.best-image img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .best-gear {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .best-text h2 {
+    font-size: 2.2rem;
+  }
+}
