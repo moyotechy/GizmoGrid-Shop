@@ -1,4 +1,4 @@
-import CheckoutForm from "../Pages/CheckoutForm";
+import CheckoutForm from "../pages/CheckoutForm";
 import OrderSummary from "../components/OrderSummary";
 import "../styles/Checkout.css";
 
